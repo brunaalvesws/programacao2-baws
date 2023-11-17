@@ -1,3 +1,4 @@
+package BLJCond;
 import java.util.Scanner;
 
 public class BLJCond4 {
