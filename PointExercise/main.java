@@ -1,14 +1,16 @@
 package PointExercise;
 
 public class main {
+    //used this file to test the classes and methods
+
     public static void main(String[] args) {
         Point p = new Point(10,10);
-        System.out.println("Ponto p " + p.toString());
+        System.out.println("Point p " + p.toString());
 
         p.setX(20);
         p.setY(30);
 
-        System.out.println("Ponto p " + p.toString());
+        System.out.println("Point p " + p.toString());
 
         try {
             p.setX(2000);
